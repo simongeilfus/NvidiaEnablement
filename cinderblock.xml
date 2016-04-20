@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="NvidiaEnablement"
+	id="sg.cinder.nvidiaenablement"
+	author="Simon Geilfus"
+	git="https://github.com/simongeilfus/Cinder-Cereal.git"
+	>	
+	<includePath>include</includePath>
+	<header>include/NvidiaEnablement.h</header>
+</block>
+</cinder>
