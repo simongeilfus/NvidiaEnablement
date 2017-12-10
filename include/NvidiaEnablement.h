@@ -24,11 +24,10 @@
 
 #if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
 #ifndef DISABLE_NVIDIA_ENABLEMENT
-#include <windows.h>
 
 extern "C" 
 { 
-	_declspec(dllexport) DWORD NvOptimusEnablement = 0x00000001; 
+	_declspec(dllexport) unsigned long NvOptimusEnablement = 0x00000001; 
 }
 
 #endif
